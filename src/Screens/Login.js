@@ -72,7 +72,8 @@ const Login = () => {
         bgColor={"#000"}
         textColor={"#fff"}
         onPress={() => {
-          validate();
+          // validate();
+          navigation.navigate("Home");
         }}
       />
       <Text
